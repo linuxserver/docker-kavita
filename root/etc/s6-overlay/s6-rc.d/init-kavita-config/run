@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 if [[ ! -f "/config/appsettings.json" ]]; then
-    echo -e "**** First run detected, copying default settings file ****\n**** You can ignore the sqlite related error on initial startup. That will go away once the database is created. ****"
+    echo -e "**** First run detected, copying default settings file. ****"
     cp /defaults/appsettings.json /config/
 fi
 

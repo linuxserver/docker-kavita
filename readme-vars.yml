@@ -36,6 +36,9 @@ optional_block_1_items: ""
 app_setup_block_enabled: true
 app_setup_block: |
   Access the webui at `<your-ip>:5000`. Follow the setup wizard on initial install.
+
+  The docker cli and compose yml samples provided list a single `/data` folder for the media, however, you can set up multiple mount points if you wish. For instance, you can set up 3 separate mountpoints named `/manga`, `/comics` and `/books`, each mapped to separate folders on host.
+
 # changelog
 changelogs:
-  - {date: "24.07.23:", desc: "Initial Release."}
+  - {date: "07.08.23:", desc: "Initial Release."}

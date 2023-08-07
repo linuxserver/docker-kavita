@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -11,9 +11,8 @@ LABEL maintainer="aptalca"
 ENV HOME="/config"
 
 RUN \
-  apt-get update && \
-  apt-get install -y \
-    libicu70 && \
+  apk add --no-cache \
+    icu-libs && \
   echo "**** install kavita ****" && \
   mkdir -p \
     /app/kavita && \
@@ -23,7 +22,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/kavita.tar.gz -fL \
-    "https://github.com/Kareadita/Kavita/releases/download/${KAVITA_RELEASE}/kavita-linux-x64.tar.gz" && \
+    "https://github.com/Kareadita/Kavita/releases/download/${KAVITA_RELEASE}/kavita-linux-musl-x64.tar.gz" && \
   tar xf \
     /tmp/kavita.tar.gz -C \
     /app/kavita --strip-components=1 && \

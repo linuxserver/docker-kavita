@@ -1,0 +1,31 @@
+---
+
+# jenkins variables
+project_name: docker-kavita
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_GIT_BRANCH = 'main'
+  - EXT_USER = 'kareadita'
+  - EXT_REPO = 'kavita'
+  - CONTAINER_NAME = 'kavita'
+  - BUILD_VERSION_ARG = 'KAVITA_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-kavita'
+  - DOCKERHUB_IMAGE = 'linuxserver/kavita'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/kavita'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/kavita'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='5000'
+  - CI_SSL='false'
+  - CI_DELAY='180'
+  - CI_DOCKERENV='TZ=Europe/London'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
+sponsor_links:
+  - { name: "Kavita", url: "https://opencollective.com/kavita" }

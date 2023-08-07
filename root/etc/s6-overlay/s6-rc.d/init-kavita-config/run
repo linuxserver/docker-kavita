@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+
+if [[ ! -f "/config/appsettings.json" ]]; then
+    echo -e "**** First run detected, copying default settings file. ****"
+    cp /defaults/appsettings.json /config/
+fi
+
+# permissions
+lsiown -R abc:abc \
+    /config \
+    /app/kavita/wwwroot

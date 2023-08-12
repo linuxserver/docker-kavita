@@ -41,5 +41,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - {date: "12.08.23:", desc: "Chown app files to lower uid."}
+  - {date: "12.08.23:", desc: "Fix app file perms to prevent high uid."}
   - {date: "07.08.23:", desc: "Initial Release."}

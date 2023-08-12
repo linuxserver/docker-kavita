@@ -26,8 +26,8 @@ RUN \
     "https://github.com/Kareadita/Kavita/releases/download/${KAVITA_RELEASE}/kavita-linux-arm64.tar.gz" && \
   tar xf \
     /tmp/kavita.tar.gz -C \
-    /app/kavita --strip-components=1 && \
-  chown -R 911:911 /app/kavita && \
+    /app/kavita --strip-components=1 \
+    --no-same-owner && \
   chmod +x /app/kavita/Kavita && \
   cp /app/kavita/config/appsettings.json /defaults/ && \
   rm -rf /app/kavita/config && \

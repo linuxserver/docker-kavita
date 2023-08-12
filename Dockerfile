@@ -27,6 +27,7 @@ RUN \
   tar xf \
     /tmp/kavita.tar.gz -C \
     /app/kavita --strip-components=1 && \
+  chown -R 911:911 /app/kavita && \
   chmod +x /app/kavita/Kavita && \
   cp /app/kavita/config/appsettings.json /defaults/ && \
   rm -rf /app/kavita/config && \

@@ -227,4 +227,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.08.23:** - Chown app files to lower uid.
 * **07.08.23:** - Initial Release.

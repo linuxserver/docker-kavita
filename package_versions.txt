@@ -1,6 +1,4 @@
 NAME                                                        VERSION                                  TYPE   
-                                                            0.0.0.0                                  dotnet  
-                                                            0.34.1                                   dotnet  
 API                                                         1.0.0.0                                  dotnet  
 AutoMapper                                                  12.0.1.0                                 dotnet  
 AutoMapper.Extensions.Microsoft.DependencyInjection         12.0.1.0                                 dotnet  
@@ -19,7 +17,7 @@ Hangfire.MemoryStorage.Core                                 1.4.0.0             
 Hangfire.SqlServer                                          1.8.5.0                                  dotnet  
 Hangfire.Storage.SQLite                                     0.3.4.0                                  dotnet  
 HtmlAgilityPack                                             1.11.53.0                                dotnet  
-Json.NET .NET Standard 2.0                                  12.0.2.23222                             dotnet  
+Json.NET.NETStandard2.0                                     12.0.2.23222                             dotnet  
 Kavita.Common                                               0.7.10.2                                 dotnet  
 MarkdownDeep.Core                                           1.0.0.0                                  dotnet  
 Microsoft.AspNetCore                                        7.0.22.51819                             dotnet  
@@ -178,12 +176,12 @@ MimeTypes                                                   2.3.2.0             
 NReco.Logging.File                                          1.1.7.0                                  dotnet  
 Nager.ArticleNumber                                         1.0.7.0                                  dotnet  
 NetVips                                                     2.3.1.0                                  dotnet  
-SQLite-net Official .NET Standard Library                   1.7.335.0                                dotnet  
-SQLitePCLRaw.batteries_v2                                   2.1.4.1835                               dotnet  
+SQLitePCLRaw.batteriesv2                                    2.1.4.1835                               dotnet  
 SQLitePCLRaw.core                                           2.1.4.1835                               dotnet  
 SQLitePCLRaw.nativelibrary                                  2.0.3.851                                dotnet  
-SQLitePCLRaw.provider.dynamic_cdecl                         2.0.3.851                                dotnet  
-SQLitePCLRaw.provider.e_sqlite3                             2.1.4.1835                               dotnet  
+SQLitePCLRaw.provider.dynamiccdecl                          2.0.3.851                                dotnet  
+SQLitePCLRaw.provider.esqlite3                              2.1.4.1835                               dotnet  
+SQLitenetOfficial.NETStandardLibrary                        1.7.335.0                                dotnet  
 Scrutor                                                     3.0.2.0                                  dotnet  
 Serilog                                                     3.0.1.0                                  dotnet  
 Serilog.AspNetCore                                          7.0.0.0                                  dotnet  

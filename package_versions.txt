@@ -18,7 +18,7 @@ Hangfire.SqlServer                                          1.8.6.0             
 Hangfire.Storage.SQLite                                     0.3.4.0                                  dotnet  
 HtmlAgilityPack                                             1.11.54.0                                dotnet  
 Json.NET.NETStandard2.0                                     12.0.2.23222                             dotnet  
-Kavita.Common                                               0.7.11.1                                 dotnet  
+Kavita.Common                                               0.7.11.2                                 dotnet  
 MarkdownDeep.Core                                           1.0.0.0                                  dotnet  
 Microsoft.AspNetCore                                        7.0.1423.52316                           dotnet  
 Microsoft.AspNetCore.Antiforgery                            7.0.1423.52316                           dotnet  

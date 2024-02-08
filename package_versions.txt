@@ -1,6 +1,9 @@
 NAME                                                        VERSION                                                                                                    TYPE   
 AutoMapper                                                  12.0.1.0                                                                                                   dotnet  
 AutoMapper.Extensions.Microsoft.DependencyInjection         12.0.1.0                                                                                                   dotnet  
+BouncyCastle.NET                                            2.2.1.47552                                                                                                dotnet  
+Cronos                                                      1.0.0.0                                                                                                    dotnet  
+CsvHelper                                                   30.1.0.11                                                                                                  dotnet  
 DocNet                                                      2.6.0.0                                                                                                    dotnet  
 DotNet.Glob                                                 3.1.3+Branch.master.Sha.6f8a320a9cc6069e80f36bb24f777a21d1c48064.6f8a320a9cc6069e80f36bb24f777a21d1c48064  dotnet  
 EasyCaching.Core                                            1.9.2.0                                                                                                    dotnet  
@@ -8,15 +11,15 @@ EasyCaching.InMemory                                        1.9.2.0             
 ExCSS                                                       4.2.4-release.0+Branch.release-v4.2.4.Sha.9dc686c6fefcd002dafb1b8b443f9af8e063f1d7                         dotnet  
 Flurl                                                       3.0.7.0                                                                                                    dotnet  
 Flurl.Http                                                  3.2.4.0                                                                                                    dotnet  
-Hangfire                                                    1.8.7.0                                                                                                    dotnet  
+Hangfire                                                    1.8.9.0                                                                                                    dotnet  
 Hangfire.InMemory                                           0.7.0.0                                                                                                    dotnet  
 Hangfire.MaximumConcurrentExecutions                        1.1.0.0                                                                                                    dotnet  
-Hangfire.MemoryStorage.Core                                 1.4.0.0                                                                                                    dotnet  
 Hangfire.Storage.SQLite                                     0.4.0.0                                                                                                    dotnet  
 Html Agility Pack                                           1.11.57.0                                                                                                  dotnet  
 Json.NET                                                    12.0.2.23222                                                                                               dotnet  
-Kavita                                                      0.7.13.0                                                                                                   dotnet  
+Kavita                                                      1.0.0+e8f4d81390712092ea37824f693f6ce66a625ca5                                                             dotnet  
 Kavita                                                      1.0.0.0                                                                                                    dotnet  
+MailKit                                                     4.3.0.0                                                                                                    dotnet  
 MarkdownDeep.Core                                           1.0.0.0                                                                                                    dotnet  
 Microsoft.AspNetCore                                        8.0.23.53112                                                                                               dotnet  
 Microsoft.AspNetCore.Antiforgery                            8.0.23.53112                                                                                               dotnet  
@@ -161,12 +164,12 @@ Microsoft.Extensions.Options.DataAnnotations                8.0.23.53103        
 Microsoft.Extensions.Primitives                             8.0.23.53103                                                                                               dotnet  
 Microsoft.Extensions.WebEncoders                            8.0.23.53112                                                                                               dotnet  
 Microsoft.IO.RecyclableMemoryStream                         3.0.0.0                                                                                                    dotnet  
-Microsoft.IdentityModel.Abstractions                        7.2.0.50110181334.06b759d4d952de64d1fa95155620a0a5b2aeee9c                                                 dotnet  
-Microsoft.IdentityModel.JsonWebTokens                       7.2.0.50110181334.06b759d4d952de64d1fa95155620a0a5b2aeee9c                                                 dotnet  
-Microsoft.IdentityModel.Logging                             7.2.0.50110181334.06b759d4d952de64d1fa95155620a0a5b2aeee9c                                                 dotnet  
+Microsoft.IdentityModel.Abstractions                        7.3.1.50203040406.7bd92b885262a6341bbdbedf8168e1649e37d117                                                 dotnet  
+Microsoft.IdentityModel.JsonWebTokens                       7.3.1.50203040406.7bd92b885262a6341bbdbedf8168e1649e37d117                                                 dotnet  
+Microsoft.IdentityModel.Logging                             7.3.1.50203040406.7bd92b885262a6341bbdbedf8168e1649e37d117                                                 dotnet  
 Microsoft.IdentityModel.Protocols                           7.1.2.41121005246.a607fa5e0005a6178cf1d2fed4fa0f8179cdb186                                                 dotnet  
 Microsoft.IdentityModel.Protocols.OpenIdConnect             7.1.2.41121005246.a607fa5e0005a6178cf1d2fed4fa0f8179cdb186                                                 dotnet  
-Microsoft.IdentityModel.Tokens                              7.2.0.50110181334.06b759d4d952de64d1fa95155620a0a5b2aeee9c                                                 dotnet  
+Microsoft.IdentityModel.Tokens                              7.3.1.50203040406.7bd92b885262a6341bbdbedf8168e1649e37d117                                                 dotnet  
 Microsoft.JSInterop                                         8.0.23.53112                                                                                               dotnet  
 Microsoft.Net.Http.Headers                                  8.0.23.53112                                                                                               dotnet  
 Microsoft.OpenApi                                           1.3.1.0                                                                                                    dotnet  
@@ -175,6 +178,7 @@ Microsoft.VisualBasic.Core                                  13.0.23.53103       
 Microsoft.Win32.Primitives                                  8.0.23.53103                                                                                               dotnet  
 Microsoft.Win32.Registry                                    8.0.23.53103                                                                                               dotnet  
 Microsoft.Win32.SystemEvents                                8.0.23.53103                                                                                               dotnet  
+MimeKit                                                     4.3.0.0                                                                                                    dotnet  
 MimeTypeMap                                                 2.3.2.0                                                                                                    dotnet  
 NReco.Logging.File                                          1.2.0.0                                                                                                    dotnet  
 Nager.ArticleNumber                                         1.0.7.0                                                                                                    dotnet  
@@ -185,9 +189,9 @@ SQLitePCLRaw.core                                           2.1.6.2060          
 SQLitePCLRaw.nativelibrary                                  2.0.4.976                                                                                                  dotnet  
 SQLitePCLRaw.provider.dynamic_cdecl                         2.0.4.976                                                                                                  dotnet  
 SQLitePCLRaw.provider.e_sqlite3                             2.1.6.2060                                                                                                 dotnet  
-Scrutor                                                     3.0.2.0                                                                                                    dotnet  
+Scrutor                                                     3.3.0+fd61a81876a8ae3e8913fd7ef439bbc995ebc066                                                             dotnet  
 Serilog                                                     3.1.1.0                                                                                                    dotnet  
-Serilog.AspNetCore                                          8.0.0.0                                                                                                    dotnet  
+Serilog.AspNetCore                                          8.0.1.0                                                                                                    dotnet  
 Serilog.Enrichers.Thread                                    3.2.0.0                                                                                                    dotnet  
 Serilog.Extensions.Hosting                                  8.0.0.0                                                                                                    dotnet  
 Serilog.Extensions.Logging                                  8.0.0.0                                                                                                    dotnet  
@@ -246,7 +250,7 @@ System.Globalization                                        8.0.23.53103        
 System.Globalization.Calendars                              8.0.23.53103                                                                                               dotnet  
 System.Globalization.Extensions                             8.0.23.53103                                                                                               dotnet  
 System.IO                                                   8.0.23.53103                                                                                               dotnet  
-System.IO.Abstractions                                      20.0.4.8906                                                                                                dotnet  
+System.IO.Abstractions                                      20.0.15.15697                                                                                              dotnet  
 System.IO.Compression                                       8.0.23.53103                                                                                               dotnet  
 System.IO.Compression.Brotli                                8.0.23.53103                                                                                               dotnet  
 System.IO.Compression.FileSystem                            8.0.23.53103                                                                                               dotnet  
@@ -262,8 +266,9 @@ System.IO.Pipelines                                         8.0.23.53103        
 System.IO.Pipes                                             8.0.23.53103                                                                                               dotnet  
 System.IO.Pipes.AccessControl                               8.0.23.53103                                                                                               dotnet  
 System.IO.UnmanagedMemoryStream                             8.0.23.53103                                                                                               dotnet  
-System.IdentityModel.Tokens.Jwt                             7.2.0.50110181334.06b759d4d952de64d1fa95155620a0a5b2aeee9c                                                 dotnet  
+System.IdentityModel.Tokens.Jwt                             7.3.1.50203040406.7bd92b885262a6341bbdbedf8168e1649e37d117                                                 dotnet  
 System.Linq                                                 8.0.23.53103                                                                                               dotnet  
+System.Linq.Async (netcoreapp3.0)                           4.0.0.2                                                                                                    dotnet  
 System.Linq.Expressions                                     8.0.23.53103                                                                                               dotnet  
 System.Linq.Parallel                                        8.0.23.53103                                                                                               dotnet  
 System.Linq.Queryable                                       8.0.23.53103                                                                                               dotnet  
@@ -292,10 +297,10 @@ System.Numerics                                             8.0.23.53103        
 System.Numerics.Vectors                                     8.0.23.53103                                                                                               dotnet  
 System.ObjectModel                                          8.0.23.53103                                                                                               dotnet  
 System.Private.CoreLib                                      8.0.23.53103                                                                                               dotnet  
-System.Private.DataContractSerialization                    8.0.0-rtm.23531.3+5535e31a712343a63f5d7d796cd874e563e5ac14                                                 dotnet  
-System.Private.Uri                                          8.0.0-rtm.23531.3+5535e31a712343a63f5d7d796cd874e563e5ac14                                                 dotnet  
-System.Private.Xml                                          8.0.0-rtm.23531.3+5535e31a712343a63f5d7d796cd874e563e5ac14                                                 dotnet  
-System.Private.Xml.Linq                                     8.0.0-rtm.23531.3+5535e31a712343a63f5d7d796cd874e563e5ac14                                                 dotnet  
+System.Private.DataContractSerialization                    8.0.23.53103                                                                                               dotnet  
+System.Private.Uri                                          8.0.23.53103                                                                                               dotnet  
+System.Private.Xml                                          8.0.23.53103                                                                                               dotnet  
+System.Private.Xml.Linq                                     8.0.23.53103                                                                                               dotnet  
 System.Reflection                                           8.0.23.53103                                                                                               dotnet  
 System.Reflection.DispatchProxy                             8.0.23.53103                                                                                               dotnet  
 System.Reflection.Emit                                      8.0.23.53103                                                                                               dotnet  
@@ -509,7 +514,7 @@ ncurses-bin                                                 6.3-2ubuntu0.1      
 netcat                                                      1.218-4ubuntu1                                                                                             deb     
 netcat-openbsd                                              1.218-4ubuntu1                                                                                             deb     
 netstandard                                                 8.0.23.53103                                                                                               dotnet  
-openssl                                                     3.0.2-0ubuntu1.13                                                                                          deb     
+openssl                                                     3.0.2-0ubuntu1.14                                                                                          deb     
 passwd                                                      1:4.8.1-2ubuntu2.1                                                                                         deb     
 perl-base                                                   5.34.0-3ubuntu1.2                                                                                          deb     
 pinentry-curses                                             1.1.1-1build2                                                                                              deb     

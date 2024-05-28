@@ -535,6 +535,7 @@ pipeline {
           --label \"org.opencontainers.image.title=Kavita\" \
           --label \"org.opencontainers.image.description=[Kavita](https://github.com/Kareadita/Kavita) is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!\" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
+          --provenance=false --sbom=false \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
       }
     }
@@ -566,6 +567,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Kavita\" \
               --label \"org.opencontainers.image.description=[Kavita](https://github.com/Kareadita/Kavita) is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!\" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
+              --provenance=false --sbom=false \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
           }
         }
@@ -594,6 +596,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Kavita\" \
               --label \"org.opencontainers.image.description=[Kavita](https://github.com/Kareadita/Kavita) is a fast, feature rich, cross platform reading server. Built with a focus for being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family!\" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
+              --provenance=false --sbom=false \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ghcr.io/linuxserver/lsiodev-buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER}"
             retry(5) {

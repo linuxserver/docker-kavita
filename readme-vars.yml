@@ -19,19 +19,13 @@ common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Contains all relevant configuration files."}
-  - {vol_path: "/data", vol_host_path: "/path/to/data", desc: "Media library containing manga, comics and books."}
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Contains all relevant configuration files."}
 param_usage_include_ports: true
 param_ports:
   - {external_port: "5000", internal_port: "5000", port_desc: "web gui"}
-param_usage_include_env: true
-param_env_vars:
-  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
-# optional container parameters
-opt_param_usage_include_env: false
-opt_param_env_vars:
-optional_block_1: false
-optional_block_1_items: ""
+opt_param_usage_include_vols:
+opt_param_volumes:
+  - {vol_path: "/data", vol_host_path: "/path/to/data", desc: "Media library containing manga, comics and books."}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -41,5 +35,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - {date: "10.07.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "12.08.23:", desc: "Fix app file perms to prevent high uid."}
   - {date: "07.08.23:", desc: "Initial Release."}

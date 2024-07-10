@@ -81,6 +81,7 @@ services:
       - TZ=Etc/UTC
     volumes:
       - /path/to/kavita/config:/config
+      - /path/to/data:/data #optional
     ports:
       - 5000:5000
     restart: unless-stopped
@@ -96,6 +97,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -p 5000:5000 \
   -v /path/to/kavita/config:/config \
+  -v /path/to/data:/data `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/kavita:latest
 ```
@@ -111,6 +113,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Contains all relevant configuration files. |
+| `-v /data` | Media library containing manga, comics and books. |
 
 ## Environment variables from files (Docker secrets)
 

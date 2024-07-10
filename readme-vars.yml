@@ -23,7 +23,7 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "5000", internal_port: "5000", port_desc: "web gui"}
-opt_param_usage_include_vols:
+opt_param_usage_include_vols: true
 opt_param_volumes:
   - {vol_path: "/data", vol_host_path: "/path/to/data", desc: "Media library containing manga, comics and books."}
 # application setup block

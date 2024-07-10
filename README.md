@@ -80,8 +80,8 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/data:/data
+      - /path/to/kavita/config:/config
+      - /path/to/data:/data #optional
     ports:
       - 5000:5000
     restart: unless-stopped
@@ -96,8 +96,8 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 5000:5000 \
-  -v /path/to/appdata/config:/config \
-  -v /path/to/data:/data \
+  -v /path/to/kavita/config:/config \
+  -v /path/to/data:/data `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/kavita:latest
 ```
@@ -276,5 +276,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.07.24:** - Rebase to Ubuntu Noble.
 * **12.08.23:** - Fix app file perms to prevent high uid.
 * **07.08.23:** - Initial Release.

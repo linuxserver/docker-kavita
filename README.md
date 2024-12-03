@@ -63,10 +63,12 @@ Access the webui at `<your-ip>:5000`. Follow the setup wizard on initial install
 
 The docker cli and compose yml samples provided list a single `/data` folder for the media, however, you can set up multiple mount points if you wish. For instance, you can set up 3 separate mountpoints named `/manga`, `/comics` and `/books`, each mapped to separate folders on host.
 
- 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -109,7 +111,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 5000` | web gui |
+| `-p 5000:5000` | web gui |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |

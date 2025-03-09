@@ -17,7 +17,7 @@ Hangfire.MaximumConcurrentExecutions                        1.1.0.0             
 Hangfire.Storage.SQLite                                     0.4.2.0                                                                                                                     dotnet                   
 Html Agility Pack                                           1.11.74.0                                                                                                                   dotnet                   
 Json.NET                                                    11.0.2.21924                                                                                                                dotnet                   
-Kavita                                                      1.0.0+35e152803a063d21d1362531ad942d1797410eda                                                                              dotnet                   
+Kavita                                                      1.0.0+2412d95a400fd568b6da3da8416dea32c4a71ca7                                                                              dotnet                   
 Kavita                                                      1.0.0.0                                                                                                                     dotnet                   
 MailKit                                                     4.10.0.0                                                                                                                    dotnet                   
 MarkdownDeep.Core                                           1.0.0.0                                                                                                                     dotnet                   

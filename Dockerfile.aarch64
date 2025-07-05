@@ -29,7 +29,7 @@ RUN \
     /app/kavita --strip-components=1 \
     --no-same-owner && \
   chmod +x /app/kavita/Kavita && \
-  cp /app/kavita/config/appsettings.json /defaults/ && \
+  cp /app/kavita/config/appsettings-init.json /defaults/ && \
   rm -rf /app/kavita/config && \
   ln -s /config /app/kavita/config && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \

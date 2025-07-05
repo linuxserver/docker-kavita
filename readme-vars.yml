@@ -76,6 +76,7 @@ init_diagram: |
   "kavita:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "05.07.25:", desc: "Update init for version 0.8.7 compatibility."}
   - {date: "10.07.24:", desc: "Rebase to Ubuntu Noble."}
   - {date: "12.08.23:", desc: "Fix app file perms to prevent high uid."}
   - {date: "07.08.23:", desc: "Initial Release."}

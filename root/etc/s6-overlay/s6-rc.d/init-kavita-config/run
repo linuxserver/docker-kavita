@@ -2,7 +2,7 @@
 # shellcheck shell=bash
 
 if [[ ! -f "/config/appsettings.json" ]]; then
-    cp /defaults/appsettings.json /config/
+    cp /defaults/appsettings-init.json /config/
 fi
 
 # permissions

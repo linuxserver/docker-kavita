@@ -223,8 +223,8 @@ pinentry-curses                                          1.2.1-3ubuntu5         
 procps                                                   2:4.0.4-4ubuntu3.2                 deb       
 publicsuffix                                             20231001.0357-0.1                  deb       
 readline-common                                          8.2-4build1                        deb       
-runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64   10.0.0                             dotnet    
-runtimepack.Microsoft.NETCore.App.Runtime.linux-x64      10.0.0                             dotnet    
+runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64   10.0.1                             dotnet    
+runtimepack.Microsoft.NETCore.App.Runtime.linux-x64      10.0.1                             dotnet    
 sed                                                      4.9-2build1                        deb       
 sensible-utils                                           0.0.22                             deb       
 sqlite-net-pcl                                           1.8.116                            dotnet    

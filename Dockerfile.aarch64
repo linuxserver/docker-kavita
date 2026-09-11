@@ -14,7 +14,7 @@ RUN \
   apt-get update && \
   apt-get install -y \
     libjemalloc2 \
-    libicu74 && \
+    libicu78 && \
   echo "**** install kavita ****" && \
   mkdir -p \
     /app/kavita && \

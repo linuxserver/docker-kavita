@@ -71,7 +71,7 @@ init_diagram: |
     svc-kavita -> legacy-services
   }
   Base Images: {
-    "baseimage-ubuntu:noble"
+    "baseimage-ubuntu:resolute"
   }
   "kavita:latest" <- Base Images
 # changelog

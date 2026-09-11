@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-ubuntu:noble
+FROM ghcr.io/linuxserver/baseimage-ubuntu:resolute
 
 # set version label
 ARG BUILD_DATE
@@ -13,6 +13,7 @@ ENV HOME="/config"
 RUN \
   apt-get update && \
   apt-get install -y \
+    libjemalloc2 \
     libicu74 && \
   echo "**** install kavita ****" && \
   mkdir -p \
